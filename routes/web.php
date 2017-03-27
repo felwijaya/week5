@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('forms');
 });
+Route::get('/', 'FormController@index')->name('forms');

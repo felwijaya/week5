@@ -14,7 +14,7 @@
 	@endif
 	<br>
 	@if(isset($email))
-	feliciawijaya25@gmail.com {{$email}}
+	Email kamu : {{$email}}
 	@endif
 </body>
 </html>
